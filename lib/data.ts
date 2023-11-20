@@ -2,6 +2,11 @@ import React from "react";
 import { CgWorkAlt, CgOrganisation } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 
+// AWARDS PHOTO
+import RatatypeAwards from "@/public/ratatypeAwards.png";
+import UdemyNextAwards from "@/public/udemyNext.jsAwards.png";
+
+// PROJECTS PHOTO
 import DentApp from "@/public/dentapp.png";
 import Breath from "@/public/breath.png";
 import Cheber from "@/public/cheber.png";
@@ -30,10 +35,16 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Awards",
+    hash: "#awards",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
+
+export const awardsData = [RatatypeAwards, UdemyNextAwards] as const;
 
 export const experiencesData = [
   {

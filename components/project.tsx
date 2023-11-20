@@ -47,7 +47,6 @@ export default function Project({
             ))}
           </ul>
         </div>
-
         <Image
           src={imageUrl}
           alt="Project I worked on"
