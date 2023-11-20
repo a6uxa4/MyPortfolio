@@ -1,6 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { CgWorkAlt, CgOrganisation } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 
 import DentApp from "@/public/dentapp.png";
@@ -38,28 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Peaksoft house",
+    location: "г.Бишкек , ул.Гражданская 119",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Я учился в Peaksoft House в течение 9 месяцев. В течение 6 месяцев изучал JavaScript, HTML, CSS и React, а оставшиеся 3 месяца работал над коммерческим проектом, похожим на стажировку.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Aksoft",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Я работал фронтенд-разработчиком в течение года на одной работе. Кроме того, я значительно улучшил свои навыки до уровня strong-junior.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Программирование в компьютерных системах",
+    location: "г.Бишкек , ул.Чуй 255",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Закончил обучение в колледже МУК по программированию в компьютерных системах, параллельно учась на практике в компании Aksoft",
+    icon: React.createElement(CgOrganisation),
+    date: "2024",
   },
 ] as const;
 
@@ -140,4 +139,5 @@ export const skillsData = [
   "Module.css",
   "Eslint",
   "Lottie-react",
+  "GitHub",
 ] as const;

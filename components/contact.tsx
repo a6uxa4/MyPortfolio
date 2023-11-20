@@ -31,24 +31,21 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        Пожалуйста, свяжитесь со мной напрямую по адресу{" "}
         <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+          a6uxa4@icloud.com
         </a>{" "}
-        or through this form.
+        или через эту форму.
       </p>
-
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
-
           if (error) {
             toast.error(error);
             return;
           }
-
-          toast.success("Email sent successfully!");
+          toast.success("Письмо успешно отправлено!");
         }}
       >
         <input
@@ -57,12 +54,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="Ваш email"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder="Ваш сообщение"
           required
           maxLength={5000}
         />
