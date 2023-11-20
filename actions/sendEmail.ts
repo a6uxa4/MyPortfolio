@@ -39,7 +39,6 @@ export const sendEmail = async (formData: FormData) => {
       error: getErrorMessage(error),
     };
   }
-
   return {
     data,
   };
