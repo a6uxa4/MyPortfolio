@@ -12,6 +12,7 @@ import Breath from "@/public/breath.png";
 import Cheber from "@/public/cheber.png";
 import Bilingual from "@/public/bilingual.png";
 import BuyGo from "@/public/buyGo.png";
+import Estetic from "@/public/esteticClinic.png";
 
 export const links = [
   {
@@ -116,6 +117,20 @@ export const projectsData = [
       "TypeScript",
     ],
     imageUrl: Cheber,
+  },
+  {
+    title: "Estetic Clinic",
+    description:
+      "Стоматологический LandingPage: информация: О клинике, Услуги, Доктора, Онлайн запись, Отзывы.",
+    tags: [
+      "Next.js",
+      "tailwind",
+      "typescript",
+      "RTK query",
+      "framer-motion",
+      "NextUI",
+    ],
+    imageUrl: Estetic,
   },
 ] as const;
 

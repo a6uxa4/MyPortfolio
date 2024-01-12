@@ -92,7 +92,7 @@ export default function Intro() {
           href="./MyResume.pdf"
           download
         >
-          Скачать мой резюме
+          Скачать мое резюме
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
