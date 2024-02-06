@@ -45,7 +45,7 @@ export const experiencesData = [
     description:
       "Я учился в Peaksoft House в течение 9 месяцев. В течение 6 месяцев изучал JavaScript, HTML, CSS и React, а оставшиеся 3 месяца работал над коммерческим проектом, похожим на стажировку.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    date: "2022",
   },
   {
     title: "Front-End Developer",
